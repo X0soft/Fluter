@@ -14,3 +14,8 @@ dependencies:
 
 flutter:
   uses-material-design: true
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
